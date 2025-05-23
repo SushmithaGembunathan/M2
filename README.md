@@ -97,16 +97,19 @@ Write a C program to perform addition and subtraction of two numbers using funct
 ## PROGRAM:
 ```
 #include <stdio.h>
-void op(int a,int b)
+void addition(int a,int b)
 {
-    printf("Addition: %d\n",a+b);
-    printf("Subtraction: %d",a-b);
+printf("Addition: %d\n",a+b);
+}
+void subtraction(int a,int b){
+    printf("Subtraction: %d\n",a-b);
 }
 int main()
 {
-    int a,b;
-    scanf("%d %d",&a,&b);
-    op(a,b);
+int a,b;
+scanf("%d %d",&a,&b);
+addition(a,b);
+subtraction(a,b);
 }
 ```
 
